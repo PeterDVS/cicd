@@ -11,5 +11,4 @@ public class JustDummyController {
     public String get() {
         return "Yep";
     }
-
 }
