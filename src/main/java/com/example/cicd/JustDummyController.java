@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(path = "/cicd")
 public class JustDummyController {
     @GetMapping
-    public String get(@RequestHeader String authorization) {
+    public String get() {
         return "Yep";
     }
 }
