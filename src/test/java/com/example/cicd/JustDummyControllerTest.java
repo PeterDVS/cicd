@@ -24,15 +24,8 @@ class JustDummyControllerTest {
     void getd() throws Exception {
 
         mockMvc.perform(get("/cicd"))
-                .andExpect(status().isOk());
-
-    }
-    @Test
-    void getd2() throws Exception {
-
-        mockMvc.perform(get("/cicd"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Yepp"));
+                .andExpect(content().string("Yep"));
 
     }
 }
